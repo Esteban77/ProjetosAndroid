@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.senac.esteban.caixaremediosapp.CadastrarRemedios">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gerenciarRemedios"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <EditText
+        android:background="@drawable/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="@string/ed_Nome"
+        android:id="@+id/editNomeRemedio" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText
+        android:background="@drawable/edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:hint="@string/ed_tipoDose"
+        android:id="@+id/editTipoDose"/>
+    <EditText
+        android:background="@drawable/edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:inputType="numberDecimal"
+        android:hint="@string/ed_Dose"
+        android:id="@+id/editDose"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:background="@drawable/edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:hint="@string/ed_PeriodoDose"
+            android:id="@+id/editPeriodo"/>
+        <EditText
+            android:background="@drawable/edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:hint="@string/ed_QtdDose"
+            android:id="@+id/editQtdDose"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/horaDeInicio"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:background="@drawable/edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:inputType="number"
+            android:hint="@string/ed_hora"
+            android:id="@+id/editHora"/>
+        <EditText
+            android:background="@drawable/edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:inputType="number"
+            android:hint="@string/ed_minutos"
+            android:id="@+id/editMinutos"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_Salvar"
+        android:background="@drawable/buttom_back"
+        android:onClick="salvarRemedio"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_resul"
+        android:id="@+id/listRemedios"></ListView>
+</LinearLayout>

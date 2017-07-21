@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CaixaRemediosApp</string>
+    <string name="bt_Gerenciar">GERENCIAR REMEDIOS</string>
+    <string name="bt_verFarmacias">VER FARMACIAS</string>
+    <string name="bt_Remedios">VER REMEDIOS</string>
+    <string name="bt_fechar">FECHAR</string>
+    <string name="menuPrincipal">MENU PRINCIPAL</string>
+    <string name="gerenciarRemedios">GERENCIAR REMEDIOS</string>
+    <string name="bt_Salvar">SALVAR</string>
+    <string name="ed_Nome">Digite o nome do Remédio</string>
+    <string name="ed_tipoDose">Tipo de dose (Comprimido, gotas)</string>
+    <string name="ed_Dose">Digite a dose (1,3)</string>
+    <string name="ed_PeriodoDose">Período dosis (8,24 hrs)</string>
+    <string name="ed_QtdDose">Qtd dose (5,10)</string>
+    <string name="horaDeInicio">Hora de Inicio da nova Dose (10:30)</string>
+    <string name="ed_hora">Hora (10,14)</string>
+    <string name="ed_minutos">Minutos (30,15)</string>
+    <string name="txt_Remedio">Remédio:</string>
+    <string name="txt_Dose">Dose:</string>
+    <string name="txt_QtDose">Qtd Doses:</string>
+    <string name="bt_AbrirApp">Abrir App</string>
+    <string name="bt_Tomei">Tomei</string>
+</resources>

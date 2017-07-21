@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CaixaRemediosApp</string>
+    <string name="bt_Gerenciar">MANAGING DRUGS</string>
+    <string name="bt_verFarmacias">SEE PHARMACIES</string>
+    <string name="bt_Remedios">SEE DRUGS</string>
+    <string name="bt_fechar">EXIT</string>
+    <string name="menuPrincipal">MAIN MENU</string>
+    <string name="gerenciarRemedios">MANAGING DRUGS</string>
+    <string name="bt_Salvar">SAVE</string>
+    <string name="ed_Nome">Tape the name of the drug</string>
+    <string name="ed_tipoDose">Dose type (Pill, drops)</string>
+    <string name="ed_Dose">Tape the dose (1,3)</string>
+    <string name="ed_PeriodoDose">Dose period (8,24 hrs)</string>
+    <string name="ed_QtdDose">Dose Qt (5,10)</string>
+    <string name="horaDeInicio">New Dose Start Time (10:30)</string>
+    <string name="ed_hora">Hours (10,14)</string>
+    <string name="ed_minutos">Minutes (30,15)</string>
+    <string name="txt_Remedio">Drug:</string>
+    <string name="txt_Dose">Dose:</string>
+    <string name="txt_QtDose">Dose Qt: </string>
+    <string name="bt_AbrirApp">Open App</string>
+    <string name="bt_Tomei">Took</string>
+</resources>
